@@ -25,3 +25,7 @@ response = requests.get(url, params)
 # fare = round(response.json()['fare'])
 
 st.markdown(f'# Nothing to show here yet :)')
+st.set_page_config(
+        page_title="MIDI to WAV",
+        page_icon="musical_note",
+        initial_sidebar_state="collapsed")
